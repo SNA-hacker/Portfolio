@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- =============== NavBar ============== -->
+    <header id="header">
+      <h1><a href="#about">Syeda Nimra Ali</a></h1>
+
+      <nav id="navbar">
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown">
+            <a>More ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="#education-section">Education</a></li>
+              <li><a href="#skills-section">Skills</a></li>
+              <li><a href="#experience-section">Experience</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#articles">Articles</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="search-box">
+          <input type="text" placeholder="Search.." id="search-input" />
+          <i class="fa fa-search search-icon" id="search-icon"></i>
+        </div>
+
+        <div class="navbar-icons">
+          <button class="mode-toggle-btn" aria-label="Toggle Dark/Light Mode">
+            <i class="fa-regular fa-moon"></i>
+          </button>
+
+          <a href="https://github.com/SNA-hacker" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/syeda-nimra-ali-014867392/"
+            target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ================= About =============== -->
+      <section id="about">
+        <div id="about-me">
+          <h1>Who I Am?</h1>
+
+          <p>
+            Hello! I am a passionate web developer and designer, focused on
+            creating clean, responsive, and user-friendly websites. I love
+            turning ideas into functional and visually appealing digital
+            experiences.
+          </p>
+
+          <p>
+            With experience as a Web Developer and Designer, I specialize in
+            building modern websites using HTML, CSS, JavaScript, and
+            frameworks. I tackle challenges creatively and efficiently,
+            delivering solutions that are both elegant and effective.
+          </p>
+
+          <p>
+            I also love learning new programming languages and technologies. I
+            have experience with Java, C, C++, and Python, and I am currently
+            improving my skills in Data Structures & Algorithms and exploring
+            Machine Learning.
+          </p>
+
+          <button><a href="#projects">View Projects</a></button>
+        </div>
+        <div id="about-image">
+          <img src="Images/Nimra.jpeg" alt="Syeda Nimra Ali" />
+        </div>
+      </section>
+
+      <!-- ============= Projects ============ -->
+      <section id="projects">
+        <h1>Featured Projects</h1>
+        <p>
+          Here are some of the projects I’ve built while learning and practicing
+          web development
+        </p>
+        <div id="projects-cards-container">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <img src="Images/project1.png" alt="RTI Food Website" />
+            <h3>RTI Food Website</h3>
+            <p>
+              A responsive food website designed to showcase menu items and food
+              details with an interactive and user-friendly interface.
+            </p>
+            <h3>Tech Stack</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a
+              href="https://youtu.be/KZcuVxE_D7c?si=BGMiiYF3jD45_yyx"
+              target="_blank"
+            >
+              <button>Demo</button>
+            </a>
+            <a
+              href="https://github.com/SNA-hacker/RTI-Food-Website"
+              target="_blank"
+            >
+              <button>Code</button>
+            </a>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <img src="Images/project2.png" alt="StudySpend" />
+            <h3>StudySpend</h3>
+            <p>
+              A web application to help students track their expenses, plan
+              budgets, and manage finances efficiently with a simple and
+              interactive interface
+            </p>
+            <h3>Tech Stack</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Flask</li>
+            </ul>
+            <a
+              href="https://youtu.be/4FqfNdWt58k?si=7bqe7PGWIownO58z"
+              target="_blank"
+            >
+              <button>Demo</button>
+            </a>
+            <a href="https://github.com/SNA-hacker/StudySpend" target="_blank">
+              <button>Code</button>
+            </a>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <img src="Images/project3.png" alt="Portfolio" />
+            <h3>Portfolio</h3>
+            <p>
+              A personal portfolio website to showcase skills, projects, and
+              experiences with a clean, responsive design and smooth navigation
+            </p>
+            <h3>Tech Stack</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a
+              href="https://youtu.be/Nh9imbnAbjo?si=nHkmot_7RevY43CR"
+              target="_blank"
+            >
+              <button>Demo</button>
+            </a>
+            <a
+              href="https://github.com/SNA-hacker/My-Portfolio"
+              target="_blank"
+            >
+              <button>Code</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== Skills =========================== -->
+      <section id="skills-section">
+        <h1>Skills</h1>
+        <p>
+          Here are some of the skills I’ve learned and am currently learning to
+          enhance my coding and problem-solving abilities.
+        </p>
+        <section class="skill-container">
+          <section class="skill">
+            <h2>Web Development</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>Tailwind CSS</li>
+              <li>React.js</li>
+            </ul>
+          </section>
+          <section class="skill">
+            <h2>Programming Languages</h2>
+            <ul>
+              <li>C++</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>C</li>
+            </ul>
+          </section>
+          <section class="skill">
+            <h2>Tools</h2>
+            <ul>
+              <li>VS Code</li>
+              <li>Git and GitHub</li>
+              <li>Figma</li>
+              <li>WordPress</li>
+            </ul>
+          </section>
+        </section>
+      </section>
+
+      <!-- ===================== Education Section ======================== -->
+      <section id="education-section">
+        <h1>Education</h1>
+        <p>Here is a summary of my academic background and formal education.</p>
+
+        <div class="education-container">
+          <div class="education">
+            <h2>Bachelor of Computer Science</h2>
+            <p>University of Sargodha</p>
+            <p>2024 – 2028</p>
+            <p><strong>Status:</strong> Currently Pursuing</p>
+            <p><strong>GPA (1st Semester):</strong> 3.7 / 4.0</p>
+            <p>
+              Focused on programming, data structures & algorithms, and web
+              development.
+            </p>
+          </div>
+
+          <div class="education">
+            <h2>Intermediate (ICS)</h2>
+            <p>The Wings Girls College, Chakwal</p>
+            <p>2022 – 2024</p>
+            <p><strong>Status:</strong> Completed</p>
+            <p>
+              Studied computer science fundamentals and basic programming
+              concepts.
+            </p>
+          </div>
+
+          <div class="education">
+            <h2>Matric (Science)</h2>
+            <p>Government Girls School, Jaswal</p>
+            <p>2020 – 2022</p>
+            <p><strong>Status:</strong> Completed</p>
+            <p>Built a strong foundation in science and mathematics.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================= Experience ========================= -->
+      <section id="experience-section">
+        <h1>Experience</h1>
+        <p>
+          Here are my professional experiences and internships where I am
+          applying and enhancing my skills.
+        </p>
+        <div class="experience-container">
+          <div class="experience">
+            <h2>Web Development Intern</h2>
+            <p><strong>Company:</strong> Arch Technologies</p>
+            <p><strong>Duration:</strong> 1 Feb 2026 – 27 Mar 2026</p>
+            <p><strong>Role & Responsibilities:</strong></p>
+            <ul>
+              <li>
+                Working on web development projects using HTML, CSS, and
+                JavaScript.
+              </li>
+              <li>
+                Implementing interactive and responsive front-end features.
+              </li>
+              <li>
+                Collaborating with the team to understand requirements and
+                deliver tasks efficiently.
+              </li>
+            </ul>
+          </div>
+          <div class="experience">
+            <h2>Web Development Intern</h2>
+            <p><strong>Company:</strong> Saiket System</p>
+            <p><strong>Duration:</strong> 30 Jan 2026 – 27 Mar 2026</p>
+            <p><strong>Role & Responsibilities:</strong></p>
+            <ul>
+              <li>
+                Learning and applying web development skills on live projects.
+              </li>
+              <li>
+                Assisting in front-end development using HTML, CSS, and
+                JavaScript.
+              </li>
+              <li>
+                Supporting the team in testing and debugging web applications.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= Contact Section ================= -->
+      <section id="contact">
+        <h1>Contact Me</h1>
+        <p>
+          If you'd like to work together or have any questions, feel free to
+          reach out.
+        </p>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <p><strong>Email:</strong> alikazmi111g@gmail.com</p>
+            <p><strong>Location:</strong> Pakistan</p>
+            <p>
+              <strong>LinkedIn:</strong>
+              <a
+                href="https://www.linkedin.com/in/syeda-nimra-ali-014867392/"
+                target="_blank"
+              >
+                View Profile
+              </a>
+            </p>
+          </div>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- ================= Achievements ================= -->
+      <section id="achievements">
+        <h1>Achievements</h1>
+
+        <div class="achievements-container">
+          <div class="achievement">
+            <h3>Academic Excellence</h3>
+            <p>Secured 3.7 GPA in first semester of BS Computer Science.</p>
+          </div>
+
+          <div class="achievement">
+            <h3>Web Development Intern</h3>
+            <p>
+              Completed internship projects using HTML, CSS, and JavaScript.
+            </p>
+          </div>
+
+          <div class="achievement">
+            <h3>Continuous Learning</h3>
+            <p>
+              Currently improving Data Structures & Algorithms and exploring
+              Machine Learning.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- ================= Articles Section ================= -->
+      <section id="articles">
+        <h1>Latest Articles</h1>
+        <p>
+          Read our latest insights, tips, and tutorials on web development,
+          design, and more.
+        </p>
+
+        <div class="articles-container">
+          <!-- Article 1 -->
+          <div class="article-card">
+            <h3>10 Tips for Responsive Web Design</h3>
+            <p>
+              Responsive web design ensures your website looks great on all
+              devices. Use flexible grids, media queries, and scalable images to
+              adapt your layout for desktops, tablets, and mobile phones. Keep
+              navigation simple, prioritize content, and test on multiple
+              devices to create a seamless experience.
+            </p>
+          </div>
+
+          <!-- Article 2 -->
+          <div class="article-card">
+            <h3>Mastering CSS Variables</h3>
+            <p>
+              CSS variables, also known as custom properties, allow you to store
+              values and reuse them throughout your stylesheet. They make your
+              code more maintainable and easier to update. Define variables in
+              :root and use them for colors, fonts, spacing, and more. They also
+              work dynamically with JavaScript for interactive designs.
+            </p>
+          </div>
+
+          <!-- Article 3 -->
+          <div class="article-card">
+            <h3>JavaScript Tips for Beginners</h3>
+            <p>
+              Start with understanding variables, data types, and functions.
+              Practice loops, conditionals, and events to make your web pages
+              interactive. Learn to manipulate the DOM and handle user input.
+              Write small, reusable functions and debug errors using console.log
+              to improve your coding skills steadily.
+            </p>
+          </div>
+
+          <!-- Article 4 -->
+          <div class="article-card">
+            <h3>Boost Website Performance</h3>
+            <p>
+              Fast websites improve user experience and SEO. Optimize images,
+              minify CSS and JavaScript, use caching, and remove unnecessary
+              code. Lazy-load heavy resources and choose a reliable hosting
+              provider. Regularly monitor your site speed with tools like Google
+              PageSpeed Insights and adjust for improvements.
+            </p>
+          </div>
+
+          <!-- Article 5 -->
+          <div class="article-card">
+            <h3>Understanding Flexbox in CSS</h3>
+            <p>
+              Flexbox simplifies layout design by distributing space along a
+              single axis. Use properties like justify-content, align-items, and
+              flex-wrap to align and space elements. Flexbox is perfect for
+              creating responsive navigation bars, cards, or grids without
+              relying on floats or complicated positioning.
+            </p>
+          </div>
+
+          <!-- Article 6 -->
+          <div class="article-card">
+            <h3>SEO Basics for Beginners</h3>
+            <p>
+              Search engine optimization helps your website rank higher in
+              search results. Focus on keywords, meta tags, headings, and
+              quality content. Improve page speed, mobile-friendliness, and
+              internal linking. Regularly analyze traffic and adjust strategies
+              to increase visibility and reach the right audience.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- ================= Testimonials Section ================= -->
+      <section id="testimonials">
+        <h1>Testimonials</h1>
+        <p>What people say about my work and skills.</p>
+
+        <div class="testimonials-container">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <p>
+              "Syeda's work is exceptional! The attention to detail and
+              creativity in her projects really stands out. Highly recommended
+              for anyone looking for quality design and development."
+            </p>
+            <h4>— Alex Johnson</h4>
+            <span>Web Developer</span>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <p>
+              "I am impressed with her professionalism and dedication. She
+              delivered the project ahead of schedule and exceeded all
+              expectations. Truly talented!"
+            </p>
+            <h4>— Maria Lee</h4>
+            <span>Project Manager</span>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <p>
+              "Syeda has a great eye for design and a very organized approach to
+              coding. She made the website look amazing and very user-friendly.
+              Would definitely collaborate again."
+            </p>
+            <h4>— John Smith</h4>
+            <span>Entrepreneur</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= Footer ================= -->
+      <footer>
+        <p>© 2026 Syeda Nimra Ali | All Rights Reserved</p>
+
+        <div class="footer-icons">
+          <a href="https://github.com/SNA-hacker" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/syeda-nimra-ali-014867392/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </footer>
+    </main>
+
+    <script src="logic.js"></script>
+  </body>
+</html>
